@@ -1,0 +1,1 @@
+DEBUG [2021-05-03 13:13:39] epinow: Running in exact mode for 2000 samples (across 4 chains each with a warm up of 250 iterations each) and 120 time steps of which 14 are a forecast

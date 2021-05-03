@@ -1,0 +1,79 @@
+---
+title: "Conclusion"
+author: "Indira"
+date: "5/3/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+# Conclusion
+
+The model can guide the authorities in assessing how the pandemic would evolve in the near future and what load on the healthcare facilities. Thenafter, the authorites can able to take preventive actions such as lockdown and they will get enough time to prepare (increase number of ventilators, beds etc.) for the worst case scenario. here we have discussed few of the things that the policymakers should understand about R number , factors that increases R number and measures that will help them to reduce it.
+
+## Interpretation of the Estimated R number
+
+![](plot3.PNG){width="2121"}
+
+Interpreting R number is quite challenging. However, R number can be very informative to understand spread of Covid-19. In our analysis, we have estimated R number of 1.4 of range (1.1-1.8). An R of 1.4 would see 100 people infect 140 people, who would in turn infect 196, who would infect 275. As, the daily cases in Nepal is around 5000 on an average. This could quickly grow. Hence, necessary steps should be taken so that the interaction among the people of community decreases.
+
+The reason for R number to be 1.4 in the second phase of Nepal could be political mass rallies, festival celebration, mass gathering in Public events without following the safety guidelines of COVID-19 by WHO.
+
+We believe the R number could be around 1.8 because testing in Nepal are done to only those who have symptoms. By this time, we already know that around 30% of people dont have any symptoms but are still infected and can spread corona.
+
+Our goal must to bring R number less than one. For that, we need to understand obstacles for this. Few are listed below:
+
+### Effect of Migrant workers 
+
+```{r,fig.align="center",fig.width=10,fig.height=6}
+source("plot1.R")
+figure
+```
+
+Open border with India makes it more challenging to control R number. Currently, the cases in India are peaking up everyday. This creates a equal to Nepal as many migrant workers are returning to Nepal. In the above figure, we can clearly see the cases in India started to rise after April 1 and its effect are seen in Nepal after 10-12 days. This means COVID-19 daily cases in Nepal can go up very soon as still the migrant workers are coming to Nepal and not all are testing. This means R number can jump very rapidly.
+
+### Effect of testing
+
+```{r fig.height=5, fig.width=10, message=FALSE, warning=FALSE, paged.print=FALSE}
+source("plot2.R")
+plot2
+```
+
+The number of testing in Nepal is not adequate and only symptomatic people are being tested. In order to control R number, there is a simple principle: test and isolate the infected people so that they cannot transfer it to others.
+
+Our belief of R number being more than 1.4 is because positive infection to testing ratio is around 30% as shown in figure no.1.1.
+
+So, it is crucial to increase the testing, isolate the infected person and community testing should be done to know the actual R number.
+
+### Increasing movement of people
+
+Government of Nepal has imposed lockdown measures but people in the city areas were allowed to go to their villages. This movement of people can lead to spread COVID-19 to rural areas of Nepal which can be a reason for increasing R number. More of, the political events, festivals gathering, marriage ceremony has increased interaction even in the lockdown period. Without controlling these events, R number cannot be controlled.
+
+### Population density and Economic condition 
+
+The population in the city areas is very dense and due to economic condition, people are compelled to adjust in the small area. If corona virus reach to such place, it will be harder to stop spreading.
+
+## Suggestions to Policymakers
+
+To control R number, the policymakers should take the following measures:
+
+1.  Strict implementation of health and safety protocol.
+
+2.  Effective implementation of lock down. Ban all the social events that increases the physical interaction of human beings.
+
+3.  Increase testing criteria, compulsory quarantine for migrant workers, increase isolation centers.
+
+```{}
+```
+
+```{}
+```
+
+```{}
+```
