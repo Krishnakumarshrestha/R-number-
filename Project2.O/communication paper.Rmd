@@ -1,47 +1,74 @@
 ---
 title: "Country at High Risk: Nepal "
 description: |
-  This is paper is intenedt to descrive all the output of our case study.
+  This is paper is intended to describe the output of our case study.
 author:
-  - name: Indira | Isha | krishna | Rohini
+  - name: Indira | Isha | Krishna | Rohini
   
 date: "`r Sys.Date()`"
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
+    theme: theme.css
 ---
 
-# Research Overview 
+# Research Overview
 
-World is worried about what is happening in India due to Covid 19.Very terrifying seens are coming out due to lack of oxygen and health facility.We the people of Nepal may have to face same or even worse. In this paper we will be discussing about why we believe our country is at very high risk. All of the findings, problems, views are based on data, figures and public information.
+The second wave of COVID-19 in India has caused a devastating crisis, saddening scenes of people grappled due to shortage of oxygen supplies and poor health facilities has shook the entire world.We, the people of Nepal, may have to face the same or even worse.
 
-First of all Lets discuss about the R number. In case of COVID-19, R number has a median value of 5.7, according to a study published online in Emerging Infectious Diseases which is about double the earlier estimate of 2.2 to 2.7. This value is far higher than flu (which averages at 1.3) (According to the Royal Society for Biology). Consequently, the larger the value of the R number, the greater the spread through a community. Moreover, the HIV and chicken pox virus may have the same or even lower R number. However, in order to contract HIV, bodily fluids need to be shared. Similarly as with chicken pox, the virus can only be spread by breathing in particles in the air. Also, comparing to the case of influenza, the R numbers of the past outbreaks may not be valid for current outbreaks of the same disease depending on the environment where the outbreak takes place. To put into a clearer picture, a R number of 2 means there will be two people infected today, four tomorrow, eight the next day, and so on is fallacious as the R number is affected by time, space, society and public policies each of which are subjected to constant change. To be precise, R number is part of a bigger picture which includes:
+In this paper, we will be discussing about why we believe that our country is at a high risk. All of the findings, problems, views are based on data, figures and public information.
+
+Firstly, let's discuss about the popular R number. In case of COVID-19, R number has a median value of 5.7, according to a study published online in Emerging Infectious Diseases, which is found to be about double the earlier estimate of 2.2 to 2.7. This value is far higher than flu (which averages at 1.3) (According to the Royal Society for Biology). Consequently, the larger the value of the R number, the greater the spread through a community. Moreover, the HIV and chicken pox virus may have the same or even lower R number. However, in order to contract HIV, bodily fluids need to be shared. Similarly as with chicken pox, the virus can only be spread by breathing in particles in the air.
+
+Comparing to the case of influenza, the R numbers of the past outbreaks may not be valid for current outbreaks of the same disease depending on the environment where the outbreak takes place. To put into a clearer picture, a R number of 2 means there will be two people infected today, four tomorrow, eight the next day, and so on is fallacious as the R number is affected by time, space, society and public policies each of which are subjected to constant change.
+
+To be precise, R number is part of a bigger picture which includes:
 
 -   The severity
 
 -   The number of cases
 
-of the infection. Further, the SEIR model and thus, the R number depends on the assumptions about the transmission characteristics of the virus. So, we also need to consider the means of transmission. The estimates about the mortality rate vary in terms of how fatal the virus is, which is again partly based on the highly variable nature of data collection between countries, plus variations relating to testing regimes and also with the accuracy of test kits. Moreover, there can be many asymptomatic carriers. Thus, R is also very general as it cannot tell us the difference in terms of infection rates between a hospital, care home, workplace, and wider community and so on. Furthermore, we also have to consider the differences between the number of people who are currently infectious as well as the recorded number of new infections because if the number of cases of infection rises, the effective R should fall as there will be less people who could get infected. However, the drop in R doesn't mean a reduction in the number who are infected. Hence, we should also consider the proportion of the population that remains susceptible to infection. So, it is quite difficult to get the good estimates of the R number as it is not a biological constant.
+of the infection. Further, the SEIR model and thus, the R number depends on the assumptions about the transmission characteristics of the virus. So, we also need to consider the means of transmission. The estimates about the mortality rate vary in terms of how fatal the virus is, which is again partly based on the highly variable nature of data collection between countries, plus variations relating to testing regimes and also with the accuracy of test kits. Moreover, there can be many asymptomatic carriers.
+
+R is also very general as it cannot tell us the difference in terms of infection rates between a hospital, care home, workplace, and wider community and so on. Furthermore, we also have to consider the differences between the number of people who are currently infectious as well as the recorded number of new infections because if the number of cases of infection rises, the effective R should fall as there will be less people who could get infected. However, the drop in R doesn't mean a reduction in the number who are infected. Hence, we should also consider the proportion of the population that remains susceptible to infection. So, it is quite difficult to get the good estimates of the R number as it is not a biological constant.
 
 COVID-19, caused by SARS-CoV-2, was first reported in Wuhan, on 31 December 2019. It has now transformed into a pandemic affecting over 218 countries and territories around the world. Nepal too has been severely affected by it. There is an increasing number of daily confirmed cases and casualties in recent days even after a year of the first case detected in China. The current virus strain that is present in Nepal is the UK strain or the B117 virus. As of 2nd May 2021, there were over 336,030 confirmed cases of COVID in Nepal with 283,994 recovered cases and 3325 deaths. The highest single day surge was recorded to be 7137 on 2nd May 2021 which surpassed the 5743 record of positive cases recorded on 21st October 2020. The cause of the recent surge of cases being the more infectious mutant strains of the virus emerging out of India with whom Nepal shares a long porous border.
 
-Utilizing the public data available from the Ministry of Health and Population (MoHP), the average effective reproduction number is estimated to be 1.4 with a confidence interval of (1.1,1.8) which indicates that on average every 10 people with Covid-19 will infect on average about 14 other healthy people. Moreover, the growth rate, r, is estimated to be 12%, which indicates that the infections are expanding. The expected number of infection cases is estimated to be 15,292 in the coming 90 days. This is an alarming rate as given the daunting challenges faced by the health system of Nepal such as poor health infrastructures followed by inadequate supply of essential drugs, poorly regulated private providers, inadequate budget allocation and poor retention of human resources in rural areas, Nepal is at a high risk. However, these estimated values are dependent upon the data collection as well as the testing regimes and accuracy of the testing kits used in Nepal. About 30% of the total tests come out to confirm infection.
+Utilizing the public data available from John Hopkins University, the average effective reproduction number is estimated to be 1.4 with a confidence interval of (1.1,1.8) which indicates that on average every 10 people with COVID-19 will infect on average about 14 other healthy people. Moreover, the growth rate, r, is estimated to be 12%, which indicates that the infections are expanding. The expected number of infection cases is estimated to be 15,292 in the coming 90 days. This is an alarming rate as given the daunting challenges faced by the health system of Nepal such as poor health infrastructures followed by inadequate supply of essential drugs, poorly regulated private providers, inadequate budget allocation and poor retention of human resources in rural areas, Nepal is at a high risk. However, these estimated values are dependent upon the data collection as well as the testing regimes and accuracy of the testing kits used in Nepal. Currently, about 30% of the total tests come out to confirm infection.
 
-Further, the country has imposed prohibitory orders in the 44 out of 77 districts in Nepal as of today, which may decrease the R number in the coming days as social distancing decreases the transmission.
+Further, the country has imposed prohibitory orders in the 44 out of 77 districts in Nepal as of today and a nation-wide lockdown is deemed to take place in order to slow down the spread which might aid in reducing the R number in the coming days as social distancing decreases the transmission. However, locking down everyone into their homes has further led to neuropsychiatric issues such as fear, anxiety, and depression. Likewise, being a landlocked country in South Asia, India and China are the major trade countries for Nepal and having to halt the trade due to the recent surge of cases will limit the availability of raw materials which used to come from China for manufacturing goods. Closing its open borders with India, will result in serious effects in the import and export of goods, one instance being: Nepal is 95% dependent on India for oxygen and as of today India is under an oxygen crisis. The travel restrictions to and from different international destinations has been put into action as a measure to prevent the spread of COVID-19 infection, which massively affected the tourism sector which is the largest industry in Nepal contributing significantly to the country's GDP.
 
-The country is currently under prohibitions and with the current situation, a nation-wide lockdown is deemed to take place in order to slow down the spread. However, locking down everyone into their homes has further led to neuropsychiatric issues such as fear, anxiety, and depression. Being a landlocked country in South Asia, India and China are the major trade countries for Nepal and having to halt the trade due to the recent surge of cases will limit the availability of raw materials which used to come from China for manufacturing goods. Closing its open borders with India, will result in serious effects in the import and export of goods, one instance being: Nepal is 95% dependent on India for oxygen and as of today India is under an oxygen crisis. The travel restrictions to and from different international destinations has been put into action as a measure to prevent the spread of COVID-19 infection, which massively affected the tourism sector which is the largest industry in Nepal contributing significantly to the country's GDP.
+With the ongoing high levels of food insecurity as well as the widespread malnutrition among children, the consequences of the virus spreading widely could reverse the recent positive trends in poverty and prove to be catastrophic. Being an agricultural country, the travel restriction and lock down has affected every stage of the food supply chain, from the production level to the distribution level. Though government has ruled out to limit gathering of people, millions of farmers have to gather together to sow food and cash crops in Nepal with the arrival of the monsoon. The current lock down measures might help the government to break the chain of the spread of the virus, however, if the existing patterns of small-scale planting, harvesting and distribution continue to be disturbed for a long time, thousands of people will consequently lose their livelihoods leading the whole country into deep food crisis. Therefore, it is recommended that the government enforce measures to control the pandemic without affecting the food supply chain considering the food security of its people.
 
-With the ongoing high levels of food insecurity as well as the widespread malnutrition among children, the consequences of the virus spreading widely could reverse the recent positive trends in poverty and prove to be catastrophic. Being an agricultural country, the travel restriction and lockdown has affected every stage of the food supply chain, from the production level to the distribution level. Though government has ruled out to limit gathering of people, millions of farmers have to gather together to sow food and cash crops in Nepal with the arrival of the monsoon. The current lockdown measures might help the government to break the chain of the spread of the virus, however, if the existing patterns of small-scale planting, harvesting and distribution continue to be disturbed for a long time, thousands of people will consequently lose their livelihoods leading the whole country into deep food insecurity. Therefore, it is recommended that the government enforce measures to control the pandemic without affecting the food supply chain considering the food security of its people.
+Moreover, the action of the government of Nepal to close all educational institutions, postponing of all national level examinations and prohibiting the gathering of more than 15 people together led to a huge out flux of people from Kathmandu in the 2 days before the prohibition started. With the unprecedented lock down, many people have worries about their education, career and future as their school education has been halted until further notice. Though the Government of Nepal though has decided to introduce a digital education system to continue the teaching learning process, Nepal is yet to provide fast and effective internet services in all of its regions. The universities and educational boards' pressure on regarding only the physical examinations as valid assessments has caused the already postponed examinations to be suspended indefinitely.
 
-Moreover, the action of the government of Nepal to close all educational institutions, postponing of all national level examinations and prohibiting the gathering of more than 15 people together led to a huge outflux of people from Kathmandu in the 2 days before the prohibition started. With the unprecedented lockdown, many people have worries about their education, career and future as their school education has been halted until further notice. Though the Government of Nepal though has decided to introduce a digital education system to continue the teaching learning process, Nepal is yet to provide fast and effective internet services in all of its regions. The universities and educational boards' pressure on regarding only the physical examinations as valid assessments has caused the already postponed examinations to be suspended indefinitely
+Despite some efforts in the past year since the first case was detected, the government's response so far has been insufficient. Since the government eased the lock down, Nepal is facing a surge of COVID-19 cases. If aggressive actions are not taken speedily, the epidemic is likely to lead to significant morbidity and mortality in Nepal. At present, any medication that will completely cure the COVID-19 has not yet been developed and it doesn't seem to be in the horizons any time soon. So, at this current situation of a resource-limited country, the only option to reduce the spread is vaccination and to increase quality testing, tracing, and isolation capacity, and to set up quality quarantine centers throughout the nation. There are two vaccines currently available in Nepal, Oxford-AstraZeneca vaccine and Vero Cell vaccine. The severity of the infection reduces by about 70%-90% on administration of the vaccines. However, studies show that Nepal has administered at least 2,091,511 doses of COVID vaccines so far. At a rate of 2 doses person, this is only enough to have vaccinated about only 3.7% of the country's population. Nepal has averaged about 13,173 doses administered each day. At that rate, it is forecasted that it will need further 435 days to administer enough doses for another 10% of the population. The current prohibitory orders along with the unmanaged, crowded vaccination centers where the spread of the virus seems likely has also slowed down the vaccination process. Moreover, a comprehensive health literacy campaign along with quality care of older adults especially those with comorbidity could also help in the effective management of the ongoing pandemic.
 
-Despite some efforts in the past year since the first case was detected, the government's response so far has been insufficient. Since the government eased the lockdown, Nepal is facing a surge of COVID-19 cases. If aggressive actions are not taken speedily, the epidemic is likely to lead to significant morbidity and mortality in Nepal. As of now, any medication that will completely cure the Covid virus has not yet been developed and it doesn't seem to be in the horizons any time soon. So, at this current situation of a resource-limited country, the only option to reduce the spread is vaccination and to increase quality testing, tracing, and isolation capacity, and to set up quality quarantine centers throughout the nation. There are two vaccines currently available in Nepal, Oxford-AstraZeneca vaccine and Vero Cell vaccine. The severity of the infection reduces by about 70%-90% on administration of the vaccine. However, studies show that Nepal has administered at least 2,091,511 doses of COVID vaccines so far. At a rate of 2 doses person, this is only enough to have vaccinated about only 3.7% of the country's population. Nepal has averaged about 13,173 doses administered each day. At that rate, it is forecasted that it will need further 435 days to administer enough doses for another 10% of the population. The current prohibitory orders along with the unmanaged, crowded vaccination centers where the spread of the Covid virus seems likely has also slowed down the vaccination process. Moreover, a comprehensive health literacy campaign along with quality care of older adults especially those with comorbidity could also help in the effective management of the ongoing pandemic.
+# Highlight 
 
-# Code  
+**We would like to point out few things that makes our country at most vulnerable position:**
+
+1.  Open boarder and hundred thousand of migrant worker coming to Nepal from most infected city of India
+
+2.  Poor health infrastructure and our over dependence on India for oxygen (95% above), medicine and other essential health supplies
+
+3.  No sight for further vaccine coming in Nepal ( at list not for few month )
+
+4.  Population density in city areas too high
+
+5.  Poor economic condition which means we can shut economy for long
+
+6.  Careless political leadership and blind nationalism
+
+    All of these above factors are creating danger of high level of risk .
+
+# Code
 
 We have done all our working In R markdown using rstudio and uploaded to github. You can find our work in this [link](https://github.com/Krishnakumarshrestha/R-number- "R number").
 
 # List of Table
 
-## Table \@ref(tab:1)
+## Table 1
 
 | **Measure**                      | **Estimate** | **Confidence Interval** |
 |----------------------------------|--------------|-------------------------|
@@ -51,9 +78,9 @@ We have done all our working In R markdown using rstudio and uploaded to github.
 
 : Summary estimate
 
-#  
+# 
 
-# List of figures 
+# List of figures
 
 We present the figures that we used to come up with above idea we used
 
@@ -66,7 +93,7 @@ figure
 
 ## Figure 2
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+```{r echo=FALSE, fig.height=6, fig.width=12, message=FALSE, warning=FALSE, paged.print=FALSE}
 source("plot2.R")
 plot2
 
@@ -74,15 +101,23 @@ plot2
 
 ## Figure 3
 
-```{r}
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
 source("plot3.R")
 plot3
 ```
 
 ## Figure 4
 
-```{r}
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
 source("plot4.R")
 plot4
+
+```
+
+## Figure 5
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+source("plot5.R")
+plot5
 
 ```
